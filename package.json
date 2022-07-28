@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "open": "cypress open --e2e --browser chrome"
+    "open": "cypress open --e2e --browser chrome",
+    "run": "cypress run --e2e --browser chrome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.3.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "cypress-multi-reporters": "^1.6.1",
+    "mocha-junit-reporter": "^2.0.2"
   }
 }
