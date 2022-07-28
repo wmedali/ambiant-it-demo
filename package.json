@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "open": "cypress open --e2e --browser chrome",
-    "run": "cypress run --e2e --browser chrome"
+    "cy:open": "cypress open --e2e --browser chrome",
+    "cy:run": "cypress run --e2e --browser chrome"
   },
   "keywords": [],
   "author": "",
