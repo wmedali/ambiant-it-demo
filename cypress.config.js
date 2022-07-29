@@ -7,8 +7,6 @@ module.exports = defineConfig({
     baseUrl: "https://www.saucedemo.com/",
     viewportWidth: 1366,
     viewportHeight: 768,
-    watchForFileChanges: false,
-    video: false,
     reporter: "cypress-multi-reporters",
     reporterOptions: {
       reporterEnabled: [
@@ -20,6 +18,7 @@ module.exports = defineConfig({
         mochaFile: "cypress/reports/junit/results-[hash].xml",
       },
     },
+    projectId: "z2gy1a",
     setupNodeEvents(on, config) {
       require("cypress-mochawesome-reporter/plugin")(on);
     },
