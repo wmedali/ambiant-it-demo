@@ -1,0 +1,13 @@
+{
+  "Items": [
+    {
+      "cat": "phone",
+      "desc": "كاراكتير اون اراب ",
+      "id": 1,
+      "img": "imgs/galaxy_s6.jpg",
+      "price": 360.0,
+      "title": "Samsung galaxy s6"
+    }
+  ],
+  "LastEvaluatedKey": { "id": "9" }
+}

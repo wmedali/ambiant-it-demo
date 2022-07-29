@@ -11,6 +11,7 @@ Cypress.Commands.add("login", (username, password) => {
 Cypress.Commands.add("loginDemoBlaze", (login) => {
   cy.get("#login2").click();
   cy.wait(1000);
+  cy.get("#logInModal").should("be.visible");
   cy.get("#loginusername").type(login.username);
   cy.get("#loginpassword").type(login.password);
   // cy.get('#logInModal').should('be.visible').find('.modal-footer').find('.btn-primary').click()

@@ -9,7 +9,3 @@ Cypress.on("uncaught:exception", (err, runnable) => {
 });
 
 import "cypress-mochawesome-reporter/register";
-
-before(() => {
-  cy.log("Je suis là");
-});
