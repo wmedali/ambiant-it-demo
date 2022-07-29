@@ -1,0 +1,14 @@
+{
+  "login": {
+    "username": "azerty123FSDF",
+    "password": "azerty123"
+  },
+  "orderData": {
+    "name": "Alee",
+    "country": "France",
+    "city": "Paris",
+    "card": "4199350000000002",
+    "month": "09",
+    "year": "25"
+  }
+}
